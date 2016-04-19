@@ -30,19 +30,20 @@ Make sure you required **jQuery** and add the following to /app/assets/javascrip
 ```
 ### Require CSS
 Add the following to /app/assets/stylesheets/application.css:
-```
+```CSS
 /*
  *= require kolor-picker
  */
 ```
 
 ### Helpers
-You can use `usertime_tag` to wrap Time objects.
-```HTML
+You can use `colorpicker_tag` and `colorpicker`.
+```ERB
 <%= colorpicker_tag(name, default_color, kolor_picker_options, html_options) %>
 <%= colorpicker_tag(:color, 'red', {:doRender => false}, {:class => 'color'}) %>
 
 or form builder
+
 <% form_for @item do |f| %>
 <%= f.colorpicker(method, default_color, kolor_picker_options, html_options) %>
 <%= f.colorpicker(:color, 'red', {:doRender => false}, {:class => 'color'}) %>
