@@ -1,0 +1,16 @@
+/*
+ *= require kolor-picker/color-sampler
+ */
+.kolor-picker-color-wrapper {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  border: 1px solid black;
+  vertical-align: middle;
+  text-indent: 100%;
+  background-image: url('data:image/gif;base64,R0lGODlhDAAMAIABAMzMzP///yH5BAEAAAEALAAAAAAMAAwAAAIWhB+ph5ps3IMyQFBvzVRq3zmfGC5QAQA7');
+}
+
+.kolor-picker-color {
+  height: 100%;
+}
