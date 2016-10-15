@@ -10,7 +10,7 @@
       var element = $(this);
       var options = element.data('widget-kolor-picker') || {};
       options.onSelect = function (color) {
-        element.val(color);
+        element.val(color).change();
       };
       element.addClass('kolor-picker-input')
         .attr('autocomplete', 'off')
