@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.1.3 / 2017-06-10
+### Removed
+- jqColorPicker map.
+
 ## v0.1.2 / 2016-10-15
 ### Changed
 - Upgraded color-sampler to v0.1.6
