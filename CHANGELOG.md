@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.1.4 / 2021-07-15
+### Upgraded
+- kolor-picker to v0.3.0
+
 ## v0.1.3 / 2017-06-10
 ### Removed
 - jqColorPicker map.
